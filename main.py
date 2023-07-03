@@ -31,7 +31,7 @@ CHAINS = {
     "BSC":
         {
             "explorer": "https://bscscan.com/",
-            "provider": "https://bsc.rpc.blxrbdn.com",
+            "provider": "https://rpc.ankr.com/bsc",
             "chain_id": 56,
             "contract": Web3.to_checksum_address("0xBE51D38547992293c89CC589105784ab60b004A9"),
             "contract_abi": json.loads(
